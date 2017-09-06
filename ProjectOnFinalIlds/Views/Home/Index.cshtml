@@ -1,0 +1,217 @@
+﻿@model ProjectOnFinalIlds.ViewModels.Dashboard
+
+<div class="container">
+    <div style="height:350px; overflow:scroll;">
+        <table>
+            <thead>
+                <tr>
+                    <th>commonleadID</th>
+                    <th>Website</th>
+                    <th>FullName</th>
+                    <th>PostCode</th>
+                    <th>Keyword</th>
+                    <th>ProductName</th>
+                    <th>Source</th>
+                    <th>LeadStatus</th>
+                    <th>CreatedOn</th>
+                    <th>TransferredOn</th>
+                    <th>TransferredTo</th>
+                    <th>Price</th>
+                    <th>PriceType</th>
+                    <th>Home Phone</th>
+                    <th>Email</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var val in Model.Lead)
+            {
+                    <tr>
+                        <td>@val.commonleadID </td>
+                        <td>@val.WebsiteName</td>
+                        <td>@val.FullName</td>
+                        <td>@val.PostCode</td>
+                        <td>@val.Keyword</td>
+                        <td>@val.ProductName</td>
+                        <td>@val.Source </td>
+                        <td>@val.LeadStatus</td>
+                        <td>@val.CreatedOn</td>
+                        <td>@val.TransferlogTransferredOn</td>
+                        <td>@val.BuyerName</td>
+                        <td>@val.TransferlogPrice</td>
+                        <td>@val.TransferlogIsActualPrice</td>
+                        <td>@val.HomePhone</td>
+                        <td>@val.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="container">
+
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                @Html.LabelFor(m => m.ProductList)
+                @Html.DropDownList("productName", Model.ProductList.Select(d => new SelectListItem() { Value = d.ProductName, Text = d.ProductName }), "All",new {@id = "productName" })
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                @Html.LabelFor(m => m.BuyerList)
+                @Html.DropDownList("buyerName", Model.BuyerList.Select(d => new SelectListItem() { Value = d.BuyerName, Text = d.BuyerName }), "All",new { @id = "buyerName" })
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                @Html.LabelFor(m => m.WebsiteList)
+                @Html.DropDownList("websiteName", Model.WebsiteList.Select(d => new SelectListItem() { Value = d.WebsiteName, Text = d.WebsiteName }), "All",new { @id = "websiteName" })
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                @Html.LabelFor(m => m.LeadStatus)<br />
+
+                @Html.DropDownList("LeadStatus", Model.LeadStatus.Select(d => new SelectListItem() { Value = d.LeadStatusName, Text = d.LeadStatusName }), "All", new { @id = "LeadStatus" } )
+
+                @*, new { @name = "LeadStatus", @id = "LeadStatus" }*@
+
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+
+                <span>Search By LeadId:</span><br />
+                @Html.TextBox("leadId")
+                @*<input id="leadId" type="text" name="leadId" />*@
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <span>Search By email:</span><br />
+                @Html.TextBox("email")
+            </div>
+            @*<input id="email" type="text" name="email" />*@
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <span>Home Phone</span><br />
+                @Html.TextBox("homePhone")
+                @*<input id="homePhone" type="text" name="homePhone" />*@
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <span>Work Phone</span><br />
+                @Html.TextBox("workPhone")
+                @*<input id="workPhone" type="text" name="workPhone" />*@
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <span>Search By Name</span><br />
+                @Html.TextBox("fullName")
+
+                @*<input id="fullName" type="text" name="fullName" />*@
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <span>Transfer From-To(MM-DD-YYYY)</span><br />
+                @Html.TextBox("trnsfrStart", new { @id = "trnsfrStart" }, new { @type = "date" })
+                @Html.TextBox("trnsfrEnd", new { @id = "trnsfrEnd" }, new { @type = "date" })
+
+                @*<input id="trnsfrStart" type="date"  name="trnsfrStart" />
+                    <input id="trnsfrEnd" type="date"  name="trnsfrEnd"/>*@
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <span>Commonlead created From-To (MM-DD-YYYY)</span><br />
+
+                @Html.TextBox("startDate", new { @id = "startDate" }, new { @type = "date" })
+                @Html.TextBox("endDate", new { @id = "endDate" }, new { @type = "date" })
+
+                @*<input id="startDate" type="date" name="startDate" />*@
+                @*<input id="endDate" type="date" name="endDate"/>*@
+
+
+
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+
+
+        <div>
+            <input type="submit" value="Search" />
+
+            <input type="button" value="Reset" onclick="test()" />
+          
+           
+
+        </div>
+
+        <div class="clearfix"></div>
+    }
+    </div>
+
+    <script>
+
+        function test() {
+            var leadId = document.getElementById('leadId');
+            console.log(leadId.value);
+            leadId.value = '';
+            var email = document.getElementById("email");
+            email.value = " ";
+            var websiteName = document.getElementById("websiteName");
+            websiteName.value = "";
+            var homePhone = document.getElementById("homePhone");
+            homePhone.value = "";
+            var workPhone = document.getElementById("workPhone");
+            workPhone.value = "";
+            var fullName = document.getElementById("fullName");
+            fullName.value = "";
+            var trnsfrStart = document.getElementById("trnsfrStart");
+            trnsfrStart.value = "";
+            var trnsfrEnd= document.getElementById("trnsfrEnd");
+            trnsfrEnd.value = "";
+            var startDate= document.getElementById("startDate");
+            startDate.value = "";
+            var endDate= document.getElementById("endDate");
+            endDate.value = "";
+            var LeadStatus= document.getElementById("LeadStatus");
+            LeadStatus.value = "";
+            var productName = document.getElementById("productName");
+            productName.value = "";
+            var buyerName = document.getElementById("buyerName");
+            buyerName.value = "";
+
+        }
+        
+
+    </script>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="147e4ba5572946188954c507ba45ae3d" Name="Diagram1">
+        <EntityTypeShape EntityType="SherlockModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ApplicationRouteMaster" Width="1.5" PointX="3" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ASULeadLog" Width="1.5" PointX="12.75" PointY="152.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ASULead" Width="1.5" PointX="9.75" PointY="149.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.Bounce" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerFaceForProduct" Width="1.5" PointX="10.5" PointY="159.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerMaster" Width="1.5" PointX="5.25" PointY="146" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductLeadCategory" Width="1.5" PointX="30" PointY="164.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductLeadType" Width="1.5" PointX="33" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProduct" Width="1.5" PointX="27.75" PointY="171.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductScheduleDay" Width="1.5" PointX="27.75" PointY="161.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductSchedule" Width="1.5" PointX="13.5" PointY="158.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductScheduleSlab" Width="1.5" PointX="27.75" PointY="165.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.BuyerProductScheduleTime" Width="1.5" PointX="27.75" PointY="150.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.CommissionMaster" Width="1.5" PointX="10.5" PointY="164.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.CommonLeadLog" Width="1.5" PointX="15.75" PointY="160.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.CommonLead" Width="1.5" PointX="7.5" PointY="149.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ContactDetail" Width="1.5" PointX="7.5" PointY="172.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.CorporateHealthLeadLog" Width="1.5" PointX="15.75" PointY="153.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.CorporateHealthLead" Width="1.5" PointX="15.75" PointY="146.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.DebtLeadLog" Width="1.5" PointX="12.75" PointY="145.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.DebtLead" Width="1.5" PointX="18.75" PointY="154.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.EmailRequest" Width="1.5" PointX="5.25" PointY="153" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.EquityReleaseLeadLog" Width="1.5" PointX="18.75" PointY="161" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.EquityReleaseLead" Width="1.5" PointX="18.75" PointY="149.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.HealthLeadLog" Width="1.5" PointX="9.75" PointY="142.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.HealthLead" Width="1.5" PointX="21.75" PointY="154.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.IncomeProtectionLeadLog" Width="1.5" PointX="21.75" PointY="161.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.IncomeProtectionLead" Width="1.5" PointX="21.75" PointY="148.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.InjuryClaimLeadLog" Width="1.5" PointX="18.75" PointY="167.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.InjuryClaimLead" Width="1.5" PointX="18.75" PointY="144.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LeadEmailRequest" Width="1.5" PointX="21.75" PointY="144.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LeadStatusByName" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LifeLeadLog" Width="1.5" PointX="21.75" PointY="168" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LifeLead" Width="1.5" PointX="15.75" PointY="169.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LoanLeadLog" Width="1.5" PointX="30" PointY="154.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LoanLead" Width="1.5" PointX="24.75" PointY="153" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LogBookLoanLeadLog" Width="1.5" PointX="15.75" PointY="139.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.LogBookLoanLead" Width="1.5" PointX="24.75" PointY="162.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.MortgageLeadLog" Width="1.5" PointX="13.5" PointY="165" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.MortgageLead" Width="1.5" PointX="5.25" PointY="164.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.OrganizationMaster" Width="1.5" PointX="0.75" PointY="137.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.OrganizationProductAccess" Width="1.5" PointX="10.5" PointY="156.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PensionLeadLog" Width="1.5" PointX="24.75" PointY="146.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PensionLead" Width="1.5" PointX="24.75" PointY="168.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PPILeadLog" Width="1.5" PointX="24.75" PointY="140.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PPILead" Width="1.5" PointX="12.75" PointY="139" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PrepaidFuneralLeadLog" Width="1.5" PointX="18.75" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.PrepaidFuneralLead" Width="1.5" PointX="21.75" PointY="139.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ProductMaster" Width="1.5" PointX="5.25" PointY="171.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ProductSlab" Width="1.5" PointX="7.5" PointY="166.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.RoleMaster" Width="1.5" PointX="3" PointY="148" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.SiteVisitor" Width="1.5" PointX="12.75" PointY="173.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.SlabDefinition" Width="1.5" PointX="5.25" PointY="177.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.SolarLeadLog" Width="1.5" PointX="9.75" PointY="172.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.SolarLead" Width="1.5" PointX="18.75" PointY="172.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.SuppressionDetail" Width="1.5" PointX="5.25" PointY="180.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.Token" Width="1.5" PointX="5.25" PointY="185.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.TransferLog" Width="1.5" PointX="27.75" PointY="155.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.UserApplicationAccess" Width="1.5" PointX="5.25" PointY="142.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.UserMaster" Width="1.5" PointX="3" PointY="151.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.UserRole" Width="1.5" PointX="5.25" PointY="157" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.WebsiteMaster" Width="1.5" PointX="10.5" PointY="167.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ILDS_SEARCH_DASHBOARD_ALLDATA" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SherlockModel.ILDS_SEARCH_DASHBOARD_SMALLDATA" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_UserApplicationAccesses_dbo_ApplicationRouteMasters_ApplicationRouteID" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ASULeadLogs_dbo_ASULeads_ASULeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ASULeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ASULeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ASULeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ASULeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerFaceForProducts_dbo_BuyerMasters_BuyerMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerFaceForProducts_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerFaceForProducts_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProducts_dbo_BuyerFaceForProducts_BuyerFaceForProduct_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerMasters_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProducts_dbo_BuyerMasters_BuyerMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductSchedules_dbo_BuyerMasters_BuyerMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommissionMasters_dbo_BuyerMasters_BuyerId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeads_dbo_BuyerMasters_BuyerMaster_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_TransferLogs_dbo_BuyerMasters_TransferredTo" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductLeadCategories_dbo_BuyerProducts_BuyerProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductLeadCategories_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductLeadTypes_dbo_BuyerProducts_BuyerProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductLeadTypes_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProducts_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProducts_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleDays_dbo_BuyerProductSchedules_BuyerProductScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleDays_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductSchedules_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductSchedules_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleSlabs_dbo_BuyerProductSchedules_BuyerProductScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleTimes_dbo_BuyerProductSchedules_BuyerProductScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_TransferLogs_dbo_BuyerProductSchedules_BuyerProductScheduleId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleSlabs_dbo_ProductSlabs_ProductSlabId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleSlabs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_BuyerProductScheduleTimes_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommissionMasters_dbo_ProductMasters_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeadLogs_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeadLogs_dbo_WebsiteMasters_WebsiteMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeads_dbo_OrganizationMasters_OrganizationMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeads_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CommonLeads_dbo_WebsiteMasters_WebsiteMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CorporateHealthLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CorporateHealthLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_DebtLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_DebtLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EquityReleaseLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EquityReleaseLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_HealthLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_HealthLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_IncomeProtectionLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_IncomeProtectionLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_InjuryClaimLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_InjuryClaimLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LeadEmailRequests_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LifeLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LifeLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LoanLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LogBookLoanLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LogBookLoanLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PensionLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PensionLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PPILeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PPILeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PrepaidFuneralLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PrepaidFuneralLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SolarLeadLogs_dbo_CommonLeads_CommonLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SolarLeads_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_TransferLogs_dbo_CommonLeads_LeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ContactDetails_dbo_ProductMasters_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ContactDetails_dbo_WebsiteMasters_SiteId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CorporateHealthLeadLogs_dbo_CorporateHealthLeads_CorporateHealthLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CorporateHealthLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_CorporateHealthLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_DebtLeadLogs_dbo_DebtLeads_DebtLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_DebtLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_DebtLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EmailRequests_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LeadEmailRequests_dbo_EmailRequests_EmailRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EquityReleaseLeadLogs_dbo_EquityReleaseLeads_EquityReleaseLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EquityReleaseLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_EquityReleaseLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_HealthLeadLogs_dbo_HealthLeads_HealthLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_HealthLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_HealthLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_IncomeProtectionLeadLogs_dbo_IncomeProtectionLeads_IncomeProtectionLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_IncomeProtectionLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_IncomeProtectionLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_InjuryClaimLeadLogs_dbo_InjuryClaimLeads_InjuryClaimLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_InjuryClaimLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_InjuryClaimLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LeadEmailRequests_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LifeLeadLogs_dbo_LifeLeads_LifeLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LifeLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LifeLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LoanLeadLogs_dbo_LoanLeads_LoanLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LoanLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LoanLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LogBookLoanLeadLogs_dbo_LogBookLoanLeads_LogBookLoanLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LogBookLoanLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_LogBookLoanLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_MortgageLeadLogs_dbo_MortgageLeads_MortgageLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_MortgageLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_MortgageLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_OrganizationProductAccesses_dbo_OrganizationMasters_OrganizationMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_UserMasters_dbo_OrganizationMasters_OrganizationMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_OrganizationProductAccesses_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PensionLeadLogs_dbo_PensionLeads_PensionLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PensionLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PensionLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PPILeadLogs_dbo_PPILeads_PPILeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PPILeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PPILeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PrepaidFuneralLeadLogs_dbo_PrepaidFuneralLeads_PrepaidFuneralLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PrepaidFuneralLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_PrepaidFuneralLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ProductMasters_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ProductSlabs_dbo_ProductMasters_ProductMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_ProductSlabs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_TransferLogs_dbo_ProductSlabs_ProductSlabId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_UserApplicationAccesses_dbo_RoleMasters_RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_UserRoles_dbo_RoleMasters_RoleMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SiteVisitors_dbo_WebsiteMasters_SiteId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SlabDefinitions_dbo_UserMasters_UserMaster_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SolarLeadLogs_dbo_SolarLeads_SolarLeadId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SolarLeadLogs_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SolarLeads_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_SuppressionDetails_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_Tokens_dbo_UserMasters_UserMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_TransferLogs_dbo_UserMasters_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_UserRoles_dbo_UserMasters_UserMasterId" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.FK_dbo_WebsiteMasters_dbo_UserMasters_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="SherlockModel.WebsiteMasterProductMasters" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
